@@ -76,7 +76,7 @@ width: 100vw;
 .panel-body:hover{
     color:green ;
 }
- #head1 {
+ /* #head1 {
     overflow: hidden; 
     border-right: .15em solid green; 
     white-space: nowrap; 
@@ -96,7 +96,11 @@ width: 100vw;
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: green; }
-  }
+  } */
+  #head1{
+    color: beige;
+    text-align: center;
+}
   #container {
     display: flex;
     /* flex-direction: row(default), column, row-reverse, column-reverse; */
